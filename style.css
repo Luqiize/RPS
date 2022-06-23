@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(5, 5, 5);
+  color: antiquewhite;
+  justify-content: center;
+  display: flex;
+}
+
+.content {
+  width: 1200px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0 0 80px;
+}
+
+h3 {
+  margin: 50px 0 30px;
+}
+
+#rock,
+#paper,
+#scissors {
+  border: 5px solid antiquewhite;
+  color: antiquewhite;
+  background-color: rgb(5, 5, 5);
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+  box-shadow: 5px 10px antiquewhite;
+}
+
+.fa-regular {
+  font-size: 40px;
+}
+
+.results {
+  width: 400px;
+  margin: 50px 0 30px;
+  display: flex;
+  font-size: 60px;
+  justify-content: space-around;
+}
+
+#winner {
+  font-size: 32px;
+  width: 400px;
+  text-align: center;
+}
+
+#try-again {
+  margin: 30px 0 0;
+  font-size: 14px;
+  border: 5px solid antiquewhite;
+  color: antiquewhite;
+  background-color: rgb(5, 5, 5);
+  width: 120px;
+  height: 60px;
+}
+
+#rock:hover:enabled {
+  background-color: antiquewhite;
+  color: rgb(5, 5, 5);
+  cursor: pointer;
+}
+
+#rock:disabled {
+  background-color: grey;
+  box-shadow: 5px 10px #888888;
+}
+
+#paper:hover:enabled {
+  background-color: antiquewhite;
+  color: rgb(5, 5, 5);
+  cursor: pointer;
+}
+
+#paper:disabled {
+  background-color: grey;
+  box-shadow: 5px 10px #888888;
+}
+
+#scissors:hover:enabled {
+  background-color: antiquewhite;
+  color: rgb(5, 5, 5);
+  cursor: pointer;
+}
+
+#scissors:disabled {
+  background-color: grey;
+  box-shadow: 5px 10px #888888;
+}
+
+#try-again:hover {
+  background-color: antiquewhite;
+  color: rgb(5, 5, 5);
+  cursor: pointer;
+}
+
+.btns {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
